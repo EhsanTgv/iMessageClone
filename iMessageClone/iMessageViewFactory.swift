@@ -12,4 +12,8 @@ import StreamChat
 class iMessageViewFactory: ViewFactory {
     
     @Injected(\.chatClient) var chatClient: ChatClient
+    
+    func makeChannelListHeaderViewModifier(title: String) -> iMessageChannelListHeaderModifier {
+        iMessageChannelListHeaderModifier(title: "Messages")
+    }
 }
