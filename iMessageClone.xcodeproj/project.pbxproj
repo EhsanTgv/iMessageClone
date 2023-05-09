@@ -20,6 +20,7 @@
 		3D2282B42A0511C800146B4B /* iMessageChannelListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2282B32A0511C800146B4B /* iMessageChannelListItem.swift */; };
 		3D63FCC42A09051600A69CD2 /* LeadingSwipeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D63FCC32A09051600A69CD2 /* LeadingSwipeAreaView.swift */; };
 		3D63FCC62A0905E600A69CD2 /* TrailingSwipeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D63FCC52A0905E600A69CD2 /* TrailingSwipeAreaView.swift */; };
+		3D63FCC82A0A6C4F00A69CD2 /* iMessageChannelListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D63FCC72A0A6C4F00A69CD2 /* iMessageChannelListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		3D2282B32A0511C800146B4B /* iMessageChannelListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessageChannelListItem.swift; sourceTree = "<group>"; };
 		3D63FCC32A09051600A69CD2 /* LeadingSwipeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadingSwipeAreaView.swift; sourceTree = "<group>"; };
 		3D63FCC52A0905E600A69CD2 /* TrailingSwipeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingSwipeAreaView.swift; sourceTree = "<group>"; };
+		3D63FCC72A0A6C4F00A69CD2 /* iMessageChannelListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessageChannelListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				3D2282B32A0511C800146B4B /* iMessageChannelListItem.swift */,
 				3D63FCC32A09051600A69CD2 /* LeadingSwipeAreaView.swift */,
 				3D63FCC52A0905E600A69CD2 /* TrailingSwipeAreaView.swift */,
+				3D63FCC72A0A6C4F00A69CD2 /* iMessageChannelListViewModel.swift */,
 			);
 			path = iMessageClone;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				3D2282B42A0511C800146B4B /* iMessageChannelListItem.swift in Sources */,
 				3D22829A2A01564A00146B4B /* ContentView.swift in Sources */,
 				3D2282B22A04F53F00146B4B /* iMessageChannelListItemView.swift in Sources */,
+				3D63FCC82A0A6C4F00A69CD2 /* iMessageChannelListViewModel.swift in Sources */,
 				3D2282982A01564A00146B4B /* iMessageCloneApp.swift in Sources */,
 				3D2282AD2A04E08300146B4B /* iMessageChannelListHeader.swift in Sources */,
 				3D2282B02A04E2DA00146B4B /* iMessageChannelListHeaderModifier.swift in Sources */,

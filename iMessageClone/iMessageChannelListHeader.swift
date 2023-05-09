@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct iMessageChannelListHeader: ToolbarContent {
-    
-    var title: String
-    
+        
     var body: some ToolbarContent {
         ToolbarItem(placement: .navigationBarLeading){
             Button {
@@ -19,9 +17,7 @@ struct iMessageChannelListHeader: ToolbarContent {
                 Text("Edit")
             }
         }
-        ToolbarItem(placement: .principal) {
-            Text(title).bold()
-        }
+        
         ToolbarItem(placement: .navigationBarTrailing){
             Button{
                 
