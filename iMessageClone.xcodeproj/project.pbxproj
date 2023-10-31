@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0213DA2AE65F61005DACAF /* LeadingComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0213D92AE65F61005DACAF /* LeadingComposerView.swift */; };
+		3D02331A2AF0DFC8001831D9 /* ComposerInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0233192AF0DFC8001831D9 /* ComposerInputView.swift */; };
 		3D10BF612A0E555400E577CC /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 3D10BF602A0E555400E577CC /* OrderedCollections */; };
 		3D10BF632A0E5B5900E577CC /* PinnedChannelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10BF622A0E5B5900E577CC /* PinnedChannelsView.swift */; };
 		3D1DC4392AB1D75A007B70B5 /* MessageListHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DC4382AB1D75A007B70B5 /* MessageListHeaderViewModel.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D0213D92AE65F61005DACAF /* LeadingComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadingComposerView.swift; sourceTree = "<group>"; };
+		3D0233192AF0DFC8001831D9 /* ComposerInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerInputView.swift; sourceTree = "<group>"; };
 		3D10BF622A0E5B5900E577CC /* PinnedChannelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedChannelsView.swift; sourceTree = "<group>"; };
 		3D1DC4382AB1D75A007B70B5 /* MessageListHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListHeaderViewModel.swift; sourceTree = "<group>"; };
 		3D1DC43B2AB1DA1C007B70B5 /* MessageListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListHeader.swift; sourceTree = "<group>"; };
@@ -68,6 +72,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D0213D82AE65F34005DACAF /* Composer */ = {
+			isa = PBXGroup;
+			children = (
+				3D0213D92AE65F61005DACAF /* LeadingComposerView.swift */,
+				3D0233192AF0DFC8001831D9 /* ComposerInputView.swift */,
+			);
+			path = Composer;
+			sourceTree = "<group>";
+		};
 		3D1DC4352AB1CCDD007B70B5 /* MessageList */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +101,7 @@
 		3D1DC4372AB1CCF4007B70B5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3D0213D82AE65F34005DACAF /* Composer */,
 				3DC3AF5B2ACEA17200ABA1AC /* Message */,
 				3D1DC43A2AB1D9FF007B70B5 /* Header */,
 			);
@@ -250,9 +264,11 @@
 				3D2282A92A02715D00146B4B /* AppDelegate.swift in Sources */,
 				3D1DC43E2AB1DE9B007B70B5 /* MessageListHeaderModifier.swift in Sources */,
 				3D63FCC62A0905E600A69CD2 /* TrailingSwipeAreaView.swift in Sources */,
+				3D02331A2AF0DFC8001831D9 /* ComposerInputView.swift in Sources */,
 				3D79570B2A9E1BFF00ADE14C /* iMessageViewFactory+ChannelList.swift in Sources */,
 				3D2282AB2A02729F00146B4B /* iMessageViewFactory.swift in Sources */,
 				3D1DC43C2AB1DA1C007B70B5 /* MessageListHeader.swift in Sources */,
+				3D0213DA2AE65F61005DACAF /* LeadingComposerView.swift in Sources */,
 				3D2282B42A0511C800146B4B /* iMessageChannelListItem.swift in Sources */,
 				3D22829A2A01564A00146B4B /* ContentView.swift in Sources */,
 				3D2282B22A04F53F00146B4B /* iMessageChannelListItemView.swift in Sources */,
