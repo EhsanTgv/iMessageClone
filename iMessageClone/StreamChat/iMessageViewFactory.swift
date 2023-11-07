@@ -14,4 +14,5 @@ class iMessageViewFactory: ViewFactory {
     
     @Injected(\.chatClient) var chatClient: ChatClient
     
+    var channelId: ChannelId?
 }
