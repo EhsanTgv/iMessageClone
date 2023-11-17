@@ -66,4 +66,19 @@ extension iMessageViewFactory {
                 .createNewMessage(text: message)
         }
     }
+    
+    func makeLoadingComposerView(
+        state: Binding<PickerTypeState>,
+        channelConfig: ChannelConfig?
+    ) -> some View{
+        LeadingComposerView(pickerTypeState: state)
+    }
+    
+    func makeTrailingComposerView(
+        enabled: Bool,
+        cooldownDuration: Int,
+        onTap: @escaping () -> Void
+    ) -> some View {
+        EmptyView()
+    }
 }

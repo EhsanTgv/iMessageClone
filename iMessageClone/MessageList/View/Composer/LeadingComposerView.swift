@@ -61,7 +61,7 @@ struct LeadingComposerView: View {
                     pickerTypeState = .expanded(.none)
                 }
             }label: {
-                Image(systemName: "mark.circle")
+                Image(systemName: "xmark.circle")
                     .resizable()
                     .foregroundColor(.gray)
                     .frame(width: 20,height: 20,alignment: .center)
@@ -73,6 +73,3 @@ struct LeadingComposerView: View {
     }
 }
 
-#Preview {
-    LeadingComposerView(pickerTypeState: <#Binding<PickerTypeState>#>)
-}
